@@ -1,0 +1,20 @@
+{
+  "name": "service-static-files",
+  "version": "1.0.0",
+  "description": "this is a test api for server files static",
+  "main": "index.js",
+  "author": "kevinSDJ",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "helmet": "^5.1.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.19"
+  }
+}
