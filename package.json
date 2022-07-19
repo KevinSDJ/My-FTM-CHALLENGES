@@ -5,7 +5,7 @@
   "main": "index.js",
   "author": "kevinSDJ",
   "license": "MIT",
-  "private": true,
+  "private": false,
   "scripts": {
     "dev": "nodemon index.js",
     "start": "node index.js"
