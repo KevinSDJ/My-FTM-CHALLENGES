@@ -124,7 +124,7 @@ body{
         max-width: 20rem;
     }
 }
-@media (max-width:1400px) and (min-width:450px) {
+@media (max-width:2400px) and (min-width:450px) {
     .card-img-mobile{
         display: none;
     }
