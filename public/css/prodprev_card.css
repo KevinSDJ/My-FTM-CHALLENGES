@@ -45,7 +45,7 @@ body{
     overflow: hidden;
 }
 .card-img-mobile{
-    max-width: 10rem;
+    max-width: 100%;
 }
 .card-img-desktop{
     width: 14rem;
@@ -113,8 +113,15 @@ body{
     opacity: 0.5;
 }
 @media (max-width:450px){
+    .card-section{
+        height: 100vh;
+    }
     .card-img-desktop{
         display: none;
+    }
+    .card-product{
+        flex-direction: column;
+        max-width: 20rem;
     }
 }
 @media (max-width:1400px) and (min-width:450px) {
