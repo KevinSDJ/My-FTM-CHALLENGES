@@ -27,6 +27,9 @@ app.use('/static', express.static('public'));
 
 //app.set('views','./views')
 //app.set('view engine','ejs')
+app.get('/',(req,res)=>{
+    res.send("nadita")
+})
 
 app.get('/product_card',(req,res)=>{
     res.render('prodprev_card',{text:"dsadsadsad"})
