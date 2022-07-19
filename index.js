@@ -3,6 +3,8 @@ const express= require('express')
 const app= express()
 const morgan= require('morgan')
 const helmet= require('helmet')
+const dotenv= require('dotenv')
+dotenv.config()
 
 
 //app.use(express.static('public'))
@@ -48,6 +50,6 @@ app.get('/product_card',(req,res)=>{
 
 
 // on listen server 
-app.listen(8000,()=>{
+app.listen(process.env.NODE_ENV=== 'prod'&&46391||8000,()=>{
     console.log("RUNING: localhost:8000")
 })
