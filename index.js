@@ -50,6 +50,6 @@ app.get('/product_card',(req,res)=>{
 
 
 // on listen server 
-app.listen(process.env.NODE_ENV=== 'prod'&&46391||8000,()=>{
+app.listen(process.env.NODE_ENV=== 'prod'&& process.env.$PORT||8000,()=>{
     console.log("RUNING: localhost:8000")
 })
