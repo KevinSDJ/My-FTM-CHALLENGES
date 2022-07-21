@@ -138,4 +138,13 @@ body{
 .attribution>a{
     text-decoration: none;
     color: white;
+    display: flex;
+    align-items: center;
+    gap: 1px;
+}
+@media (max-width:400px){
+    .attribution>a{
+        font-size: 0.1px;
+        
+    }
 }
