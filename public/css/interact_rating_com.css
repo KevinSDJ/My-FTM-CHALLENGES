@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+/*
+font-family: 'Overpass', sans-serif;
+*/
+html,body{
+    margin:0;
+    padding:0;
+}
+body{
+    position: relative;
+    min-height: 100vh;
+}
+.main{
+    transition: all ease-in-out 1s;
+    background-color:hsl(216, 12%, 8%);
+    width: 100%;
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-front{
+    max-width: 16rem;
+    height: max-content;
+    background-color:  hsl(213, 19%, 18%);
+    padding: 2rem;
+    font-family: 'Overpass',serif;
+    border-radius: 1rem;
+}
+.card-inactive{
+    display: none;
+}
+.card-reverse{
+    font-family: 'Overpass',serif;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 16rem;
+    height: max-content;
+    text-align: center;
+    padding: 2rem;
+    background-color:  hsl(213, 19%, 18%);
+    border-radius: 1rem;
+}
+.card-start-icon{
+    display:inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsla(216, 12%, 54%, 0.479);
+    border-radius: 100%;
+    align-self: center;
+    text-align: center;
+    padding: 10px;
+}
+.card-title-front{
+    font-weight: 700;
+    font-size: 20px;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 2%;
+}
+.card-paragraph-front{
+    margin:0 auto;
+    font-size: 14px;
+    color: hsl(217, 12%, 63%);
+}
+.steps-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin :5% auto;
+}
+.step-icon{
+    background-color: hsla(216, 12%, 54%, 0.479);
+    text-align: center;
+    padding: 10px 15px;
+    border-radius: 100%;
+    border: 1px solid transparent;
+    color: hsl(217, 12%, 63%);
+}
+.step-icon:hover{
+    background-color:hwb(25 7% 2%);
+    color: hsl(0, 0%, 100%) ;
+}
+.card-front-submit-btn{
+    font-family: 'Overpass',serif;
+    width: 100%;
+    height: 2rem;
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(0, 0%, 100%);
+    border: none;
+    border-radius: 1rem;
+    letter-spacing: 1px;
+}
+.active-step{
+    background-color:hsl(216, 12%, 54%);
+    color: hsl(0, 0%, 100%) ;
+}
+.card-front-submit-btn:hover{
+    color:hwb(25 7% 2%);
+    background-color: hsl(0, 0%, 100%) ;
+}
+.card-reverse-img{
+    width: 12rem;
+    height: 7rem;
+}
+.card-rating-select-view{
+    font-weight: 300 !important;
+    font-family: 'Overpass',serif;
+    font-size: 14px;
+    color: hwb(25 7% 2%);
+    background-color: hsla(216, 12%, 54%, 0.479);
+    padding: 5px 10px;
+    border-radius: 2rem;
+    text-align: center;
+}
+.card-title-reverse{
+    color: hsl(0, 0%, 100%) ;
+    margin: 2% auto;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    min-height: 50px;
+}

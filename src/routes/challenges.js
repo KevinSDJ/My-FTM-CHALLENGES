@@ -1,0 +1,13 @@
+const CHALLENGES= require('express').Router()
+
+CHALLENGES.get('/product_card',(req,res)=>{
+    res.render('prodprev_card',{text:"dsadsadsad"})
+})
+CHALLENGES.get('/interact_rating_comp',(req,res)=>{
+
+    res.render('interact_rating_comp')
+})
+
+
+
+module.exports= CHALLENGES
