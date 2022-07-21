@@ -9,6 +9,7 @@ html,body{
 body{
     position: relative;
     min-height: 100vh;
+    background-color:hsl(216, 12%, 8%);
 }
 .main{
     transition: all ease-in-out 1s;
@@ -121,28 +122,20 @@ body{
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .attribution{
     position: absolute;
     bottom: 0;
     width: 100%;
-    min-height: 50px;
+    min-height: 70px;
+    background-color: hsl(213, 19%, 18%);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    gap: 5px;
+}
+.attribution>a{
+    text-decoration: none;
+    color: white;
 }
