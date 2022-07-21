@@ -81,7 +81,7 @@ body{
     color: hsl(217, 12%, 63%);
 }
 .step-icon:hover{
-    background-color:hwb(25 7% 2%);
+    background-color:hsl(216, 12%, 54%);
     color: hsl(0, 0%, 100%) ;
 }
 .card-front-submit-btn{
@@ -95,8 +95,8 @@ body{
     letter-spacing: 1px;
 }
 .active-step{
-    background-color:hsl(216, 12%, 54%);
-    color: hsl(0, 0%, 100%) ;
+    background-color:hwb(25 7% 2%);
+    color: hsl(0, 0%, 100%);
 }
 .card-front-submit-btn:hover{
     color:hwb(25 7% 2%);
