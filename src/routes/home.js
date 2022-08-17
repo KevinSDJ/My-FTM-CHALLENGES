@@ -3,7 +3,7 @@ const HOMEROUTE= require('express').Router()
 
 
 HOMEROUTE.get('/',(req,res)=>{
-    res.status(200).send('Estas en Home')
+    res.status(200).render("home")
 })
 
 

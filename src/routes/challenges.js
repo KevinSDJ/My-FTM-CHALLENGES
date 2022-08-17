@@ -7,6 +7,10 @@ CHALLENGES.get('/interact_rating_comp',(req,res)=>{
 
     res.render('interact_rating_comp')
 })
+CHALLENGES.get('/qr-component',(req,res)=>{
+    res.render('qr_component')
+})
+
 
 
 

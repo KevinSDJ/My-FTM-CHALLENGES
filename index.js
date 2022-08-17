@@ -25,9 +25,9 @@ app.use('/static', express.static('public'));
 
 
 // routes
-app.use(INDEXROUTE)
+app.use('/',INDEXROUTE)
 
 // on listen server 
-app.listen(process.env.PORT||8000,()=>{
-    process.env.PORT && console.log("RUNING: "+ process.env.PORT)||console.log("RUNING: localhost:8000")
+app.listen(process.env.PORT||3000,()=>{
+    process.env.PORT && console.log("RUNING: "+ process.env.PORT)||console.log("RUNING: localhost:3000")
 })

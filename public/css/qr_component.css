@@ -1,0 +1,125 @@
+@import url("https://fonts.google.com/specimen/Outfit");
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: hsl(212deg, 30%, 55%);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+html, body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+#app {
+  margin: 0;
+  padding: 0;
+}
+
+#main {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+  background-color: hsl(212deg, 45%, 89%);
+  display: inline-flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+#qr-section {
+  font-family: "Outfit", sans-serif;
+  width: 100%;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#qr-section h3 {
+  color: hsl(218deg, 44%, 22%);
+}
+#qr-section #qr-generate {
+  background-color: transparent;
+  padding: 1em;
+}
+#qr-section #qr-generate input {
+  outline: none;
+  font-size: 15px;
+  padding: 4px;
+  border: 0.5px solid transparent;
+  font-family: "Outfit", sans-serif;
+}
+#qr-section #qr-generate input:focus {
+  border: 0.5px solid rgb(18, 111, 218);
+}
+#qr-section #qr-generate #btn-qr-generate {
+  font-family: "Outfit", sans-serif;
+  border: none;
+  color: white;
+  padding: 0.5em 1em;
+  background-color: rgb(18, 111, 218);
+  border-radius: 4px;
+}
+#qr-section #qr-card {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 1em;
+  background-color: white;
+  border-radius: 1em;
+  max-width: 15rem;
+}
+#qr-section #qr-card #qr {
+  transition: all ease-in-out 1s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 12rem;
+  height: 12rem;
+  padding: 1.5em;
+  border-radius: 1em;
+  background-color: rgb(18, 111, 218);
+}
+#qr-section #qr-card #qr-description {
+  background-color: transparent;
+  font-family: "Outfit", sans-serif;
+}
+#qr-section #qr-card #qr-description h2 {
+  font-weight: 700;
+  color: hsl(218deg, 44%, 22%);
+  font-size: 15px;
+}
+#qr-section #qr-card #qr-description p {
+  font-size: 12px;
+  font-weight: 400;
+  color: hsl(211deg, 10%, 58%);
+}
+
+#footer {
+  bottom: 0;
+  width: 100%;
+  height: auto;
+  background-color: rgb(18, 111, 218);
+  color: white;
+  text-align: center;
+  padding: 1em 0;
+}
+#footer a {
+  text-decoration: none;
+  color: rgb(186, 200, 211);
+}
+#footer a:hover {
+  border-bottom: 1px solid magenta;
+}
