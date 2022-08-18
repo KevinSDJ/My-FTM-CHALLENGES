@@ -10,6 +10,9 @@ CHALLENGES.get('/interact_rating_comp',(req,res)=>{
 CHALLENGES.get('/qr-component',(req,res)=>{
     res.render('qr_component')
 })
+CHALLENGES.get('/encript',(req,res)=>{
+    res.render('encript')
+})
 
 
 
